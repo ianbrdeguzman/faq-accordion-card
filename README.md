@@ -5,7 +5,7 @@ Check it out [here!](https://ianbrdeguzman.github.io/faq-accordion-card/)
 ## Created using:
 
 -   HTML5
--   CSS3
+-   SCSS
 -   JavaScript
 
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
