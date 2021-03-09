@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  min-height: 100vh;
+  color: #1d1e35;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(to bottom, #af67e9, #6565e7);
+}
+
+.img-container-box {
+  display: none;
+}
+
+.app-container {
+  width: 90vw;
+  max-width: 920px;
+  margin: 9rem auto 2rem auto;
+  padding: 8rem 1.5rem 3rem 1.5rem;
+  color: #1d1e35;
+  line-height: 1.2rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.app-container header {
+  text-align: center;
+}
+
+.app-container header .img-container-1,
+.app-container header .img-container-2 {
+  position: absolute;
+  top: -108px;
+  left: 50%;
+  -webkit-transform: translateX(-55%);
+          transform: translateX(-55%);
+}
+
+.app-container header .img-container-2 {
+  top: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.app-container header .img-container-3 {
+  display: none;
+}
+
+.app-container header .img-container-4 {
+  display: none;
+}
+
+.app-container .content {
+  font-size: 12px;
+  color: #787887;
+}
+
+.app-container .content h1 {
+  color: #1d1e35;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.app-container .content .question {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e7e7e9;
+}
+
+.app-container .content .question .question-title {
+  color: #1d1e35;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-container .content .question .question-answer {
+  display: none;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+
+.app-container .content .question.active .question-title {
+  font-weight: bolder;
+}
+
+.app-container .content .question.active .question-title img {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+
+.app-container .content .question.active .question-answer {
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 1440px) {
+  .img-container-box {
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 53%;
+    left: calc((100% - 920px) / 2);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .app-container {
+    margin: 4rem auto 4rem auto;
+    padding: 5rem 1.5rem;
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .app-container header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .app-container header .img-container-1,
+  .app-container header .img-container-2 {
+    display: none;
+  }
+  .app-container header .img-container-3 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -80px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 1;
+  }
+  .app-container header .img-container-4 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -62.4%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .app-container .content {
+    padding-right: 5rem;
+    font-size: 12px;
+    color: #787887;
+  }
+  .app-container .content h1 {
+    color: #1d1e35;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .app-container .content .question-title:hover {
+    cursor: pointer;
+    color: #f47c57;
+  }
+}
+/*# sourceMappingURL=style.css.map */
