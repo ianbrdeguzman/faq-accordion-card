@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ Accordion Card
 
-Check it out [here!]()
+Check it out [here!](https://ianbrdeguzman.github.io/faq-accordion-card/)
 
 ## Created using:
 
@@ -12,9 +12,9 @@ Check it out [here!]()
 
 ## The challenge
 
-Your challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
+The challenge is to build out this FAQ accordion card and get it looking as close to the design as possible.
 
-Your users should be able to:
+Users should be able to:
 
 -   View the optimal layout for the component depending on their device's screen size
 -   See hover states for all interactive elements on the page
