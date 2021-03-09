@@ -23,7 +23,7 @@ class Question {
     displayBG() {
         backgrounds.forEach((item) => {
             const { id, title, src } = item;
-            const container = document.querySelector('header');
+            const container = document.querySelector('.header');
             const html = `
                 <div class="img-container-${id}">
                     <img src="${src}" alt="${title}"/>
